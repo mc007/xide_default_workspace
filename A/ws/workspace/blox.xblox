@@ -1,0 +1,153 @@
+{
+  "blocks": [
+    {
+      "_containsChildrenIds": [],
+      "parentId": "c8f9a0ea-fdcd-65a2-8b32-7569eeb74906",
+      "id": "6d6d310f-7dcd-4598-6b04-ff29384b7a9d",
+      "method": "console.profile('profile');",
+      "name": "Run Script",
+      "args": "",
+      "deferred": false,
+      "declaredClass": "xblox.model.code.RunScript",
+      "serializeMe": true,
+      "description": "No Description",
+      "enabled": true,
+      "canDelete": true,
+      "renderBlockIcon": true,
+      "order": 0
+    },
+    {
+      "_containsChildrenIds": [],
+      "parentId": "018974c7-0ba8-6282-e873-91bedfce1554",
+      "id": "b2cbb8f3-3a76-ec64-1103-dcee539465c5",
+      "method": "console.profileEnd();",
+      "name": "Run Script",
+      "args": "",
+      "deferred": false,
+      "declaredClass": "xblox.model.code.RunScript",
+      "serializeMe": true,
+      "description": "No Description",
+      "enabled": true,
+      "canDelete": true,
+      "renderBlockIcon": true,
+      "order": 0
+    },
+    {
+      "_containsChildrenIds": [
+        "items"
+      ],
+      "group": "On Load",
+      "id": "c8f9a0ea-fdcd-65a2-8b32-7569eeb74906",
+      "name": "On Key",
+      "event": "shift d",
+      "reference": "{\"reference\":\"dijitContentPane dijitTabPane dijitTabContainerTop-child dijitTabContainerTop-dijitContentPane\",\"mode\":\"bycss\"}",
+      "description": "Activates firebug profiling!",
+      "declaredClass": "xblox.model.events.OnKey",
+      "serializeMe": true,
+      "enabled": true,
+      "canDelete": true,
+      "renderBlockIcon": true,
+      "order": 0,
+      "items": [
+        "6d6d310f-7dcd-4598-6b04-ff29384b7a9d"
+      ]
+    },
+    {
+      "_containsChildrenIds": [
+        "items"
+      ],
+      "group": "On Load",
+      "id": "018974c7-0ba8-6282-e873-91bedfce1554",
+      "items": [
+        "b2cbb8f3-3a76-ec64-1103-dcee539465c5"
+      ],
+      "event": "shift f",
+      "name": "On Key",
+      "reference": "{\"reference\":\"\",\"mode\":\"byid\"}",
+      "description": "deactivates firebug profiling!",
+      "declaredClass": "xblox.model.events.OnKey",
+      "serializeMe": true,
+      "enabled": true,
+      "canDelete": true,
+      "renderBlockIcon": true,
+      "order": 0
+    },
+    {
+      "_containsChildrenIds": [
+        "items"
+      ],
+      "group": "On Load",
+      "id": "f0c979e8-d0df-8bd7-5b0c-ad5bd8de95e5",
+      "name": "On Key",
+      "event": "shift x",
+      "reference": "{\"reference\":\"\",\"mode\":\"bycss\"}",
+      "description": "Activates firebug profiling!",
+      "declaredClass": "xblox.model.events.OnKey",
+      "serializeMe": true,
+      "enabled": true,
+      "canDelete": true,
+      "renderBlockIcon": true,
+      "order": 0,
+      "items": [
+        "078650c1-29a0-3705-052f-bb71981e5e49",
+        "ce316660-70e2-0806-75db-2d2b7d16006e"
+      ]
+    },
+    {
+      "_containsChildrenIds": [],
+      "group": "On Load",
+      "id": "078650c1-29a0-3705-052f-bb71981e5e49",
+      "name": "Set Style",
+      "event": "",
+      "reference": "",
+      "description": "Sets HTML Node Style Attribute",
+      "declaredClass": "xblox.model.html.SetStyle",
+      "serializeMe": true,
+      "enabled": true,
+      "canDelete": true,
+      "renderBlockIcon": true,
+      "order": 0,
+      "parentId": "f0c979e8-d0df-8bd7-5b0c-ad5bd8de95e5"
+    },
+    {
+      "_containsChildrenIds": [],
+      "parentId": "f0c979e8-d0df-8bd7-5b0c-ad5bd8de95e5",
+      "id": "ce316660-70e2-0806-75db-2d2b7d16006e",
+      "name": "Run Script",
+      "method": "",
+      "args": "",
+      "deferred": false,
+      "declaredClass": "xblox.model.code.RunScript",
+      "serializeMe": true,
+      "description": "No Description",
+      "enabled": true,
+      "canDelete": true,
+      "renderBlockIcon": true,
+      "order": 0
+    }
+  ],
+  "variables": [
+    {
+      "title": "No-Title-Yet",
+      "type": 13,
+      "value": "No Value",
+      "enumType": "VariableType",
+      "save": false,
+      "initialize": "",
+      "group": "Variables",
+      "id": "9c1d5f2c-6f33-61dc-375d-e0864c35d1af",
+      "register": true,
+      "readOnly": false,
+      "declaredClass": "xblox.model.variables.Variable",
+      "serializeMe": true,
+      "description": "No Description",
+      "enabled": true,
+      "canDelete": true,
+      "renderBlockIcon": true,
+      "_currentIndex": 0,
+      "_onLoaded": false,
+      "beanType": "BLOCK",
+      "order": 0
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<html>
+<head>
+    <!--base href="http://192.168.1.37:81/x4mm/Code/trunk/xide-php/client/lib/"--><meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Untitled</title>
+    <script type="text/javascript" src="dojo/dojo.js" data-dojo-config="'parseOnLoad':true,'async':true,'packages':[{'name':'gridx','location':'../../lib/dojo/gridx'},{'name':'clipart','location':'../../lib/clipart'},{'name':'xide','location':'../../lib/xide'},{'name':'maqettaSamples','location':'../../samples'},{'name':'maqetta','location':'../../lib/maqetta'},{'name':'shapes','location':'../../lib/shapes'},{'name':'widgets','location':'../../WebContent/lib/custom'}],'themeMap':[['Android','',['themes/android/android.css']],['BlackBerry','',['themes/blackberry/blackberry.css']],['iPad','',['themes/ipad/ipad.css']],['iPhone','',['themes/iphone/iphone.css']],['.*','',['themes/iphone/iphone.css']]],'mblThemeFiles':[],'mblLoadCompatPattern':''"></script>
+    
+    <script type="text/javascript">
+	    require([
+			  "dijit/dijit",
+			  "dojo/parser",
+			  "maqetta/space",
+			  "maqetta/AppStates",
+			  "dojox/mobile",
+			  "dojox/mobile/deviceTheme",
+			  "dojox/mobile/ContentPane",
+			  "dojo/hash",
+			  "dojox/mobile/Button",
+			  "xide/mobile/Button"
+			]);
+			
+    </script>
+    <style>
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+</head>
+
+<body data-maq-device="iphone" data-maq-flow-layout="true" data-maq-comptype="mobile" class="claro" data-maq-ws="collapse" data-maq-appstates="{'states':[]}" data-maq-orientation="portrait" id="myapp">
+ <button data-dojo-type="xide/mobile/Button" defaultImage="nada332" style="position: absolute; left: 31px; top: 98px;">
+   bye</button>
+</body>
+</html>
