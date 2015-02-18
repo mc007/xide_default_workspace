@@ -81,7 +81,7 @@
 	position: absolute;
 }
 .slideShowCtrl span.slideShowCtrlHide {
-	background-image: url("../../../dojo/resources/blank.gif");
+	/*background-image: url("../../../dojo/resources/blank.gif");*/
 	cursor: auto;
 }
 
