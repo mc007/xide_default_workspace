@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <script type="text/javascript" src="http://192.168.1.37/projects/xbox-app//client/src/lib/dojo/dojo.js" data-dojo-config="'has':{'xblox':true},'tlmSiblingOfDojo':0,'baseUrl':'http://192.168.1.37/projects/xbox-app//client/src/lib/dojo','parseOnLoad':true,'async':true,'packages':[{'name':'gridx','location':'../../lib/dojo/gridx'},{'name':'clipart','location':'../../lib/clipart'},{'name':'xide','location':'../../lib/xide'},{'name':'xblox','location':'../../lib/xblox'},{'name':'maqettaSamples','location':'../../samples'},{'name':'maqetta','location':'../../lib/maqetta'},{'name':'shapes','location':'../../lib/shapes'},{'name':'widgets','location':'../../WebContent/lib/custom'},{'name':'xapp','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//xapp'},{'name':'dijit','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//dijit'},{'name':'dojox','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//dojox'},{'name':'xblox','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//xblox'},{'name':'dstore','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//dstore'},{'name':'xide','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//xide'},{'name':'xfile','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//xfile'},{'name':'xwire','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//xwire'},{'name':'delite','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//ibm-js/delite'},{'name':'deliteful','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//ibm-js/deliteful'},{'name':'decor','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//ibm-js/decor'},{'name':'dpointer','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//ibm-js/dpointer'},{'name':'dcl','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//ibm-js/dcl'},{'name':'requirejs-dplugins','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//ibm-js/requirejs-dplugins'},{'name':'requirejs-domready','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//ibm-js/requirejs-domready'},{'name':'requirejs-text','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//ibm-js/requirejs-text'},{'name':'jquery','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//ibm-js/jquery'}],'themeMap':[['Android','',['themes/android/android.css']],['BlackBerry','',['themes/blackberry/blackberry.css']],['iPad','',['themes/ipad/ipad.css']],['iPhone','',['themes/iphone/iphone.css']],['.*','',['themes/iphone/iphone.css']]],'mblThemeFiles':[],'mblLoadCompatPattern':''"></script>
+    <script type="text/javascript">
+        require([
+            "dijit/dijit",
+            "dojo/Deferred",
+            "dojo/parser",
+            "dijit/form/Button",
+            "maqetta/space",
+            "maqetta/AppStates",
+            "dijit/form/HorizontalSlider",
+            "dijit/form/HorizontalRule",
+            "dijit/form/HorizontalRuleLabels",
+            "dijit/layout/BorderContainer",
+            "dijit/layout/AccordionContainer",
+            "dijit/layout/ContentPane",
+            "xblox/RunScript",
+            "dijit/form/Form",
+            "dijit/form/ToggleButton",
+            "dijit/form/DropDownButton",
+            "dijit/Menu",
+            "dijit/MenuItem",
+            "dijit/form/ComboBox",
+            "dijit/form/FilteringSelect",
+            "dijit/form/ComboButton"
+        ]);
+    </script>
+
+    <style>
+        @import "%%XIDEVE_LIB_ROOT%%/dijit/themes/claro/document.css";
+        @import "%%XIDEVE_LIB_ROOT%%/dijit/themes/claro/claro.css";
+        @import "%%XIDEVE_LIB_ROOT%%/dijit/themes/jquery/blitzer/jquery-ui.css";
+
+</style>
+
+</head>
+
+
+<body data-maq-flow-layout="false" data-maq-comptype="desktop" class="claro" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}">
+
+
+<script type="text/javascript">
+
+    /**
+     * The document settings
+     */
+    var xideveSettings = {
+
+        xbloxScripts: [
+            {
+                name: 'min',
+                mount:'workspace',
+                path: 'min.xblox'
+            }
+        ]
+    };
+
+    var appContext = null;
+
+    var runBlox = function(path,id,context,settings){
+        appContext.application.runBlox(path,id,context,settings);
+    };
+
+    var runx = function(ctx,expression,args){
+        var _function = new Function("{" +expression+"; }");
+        var parsed = _function.call(ctx,args);
+        return parsed;
+    };
+
+    var startx = function (dfd, bootStrapper, context, settings) {
+
+        appContext = context;
+        dfd.resolve({
+            bootstrap: bootStrapper,
+            context: context,
+            settings: settings
+        });
+    };
+
+    var bootx = function (settings) {
+
+        var headDfd = new dojo.Deferred();
+        require(['xapp/boot'], function (boot) {
+            var bootStrap = new boot();
+            bootStrap.load().then(function () {
+                bootStrap.start(settings).then(function (ctx) {
+
+                    startx(headDfd, bootStrap, ctx, xideveSettings);
+
+                });
+            });
+        });
+        return headDfd;
+    }
+</script>
+<div type="button" data-dojo-type="dijit/form/Button" intermediateChanges="false" label="Fade Vol Down" iconClass="dijitNoIcon" style="position: absolute; left: 21.000004350585936px; top: 221.00000435058593px;">
+
+</div>
+<div type="button" data-dojo-type="dijit/form/Button" intermediateChanges="false" label="Fade Vol Up" iconClass="dijitNoIcon" style="position: absolute; left: 148px; top: 221.00000435058593px;">
+
+</div>
+
+
+<span data-dojo-type="dijit/form/DropDownButton" intermediateChanges="false" label="Source" iconClass="dijitNoIcon" style="position: absolute; left: 22px; top: 280px;">
+<span data-dojo-type="dijit/Menu" contextMenuForWindow="false" leftClickToOpen="false" tabIndex="0">
+     <span data-dojo-type="dijit/MenuItem" label="DVD" iconClass="dijitNoIcon"></span>
+     <span data-dojo-type="dijit/MenuItem" label="TV" iconClass="dijitNoIcon"></span>
+ </span>
+
+</span>
+<div data-dojo-type="dijit/form/HorizontalSlider" intermediateChanges="false" maximum="98" discreteValues="Infinity" style="height: auto; position: absolute; left: 21.000004350585936px; top: 139px; width: 210px;">
+  <div data-dojo-type="dijit/form/HorizontalRule" container="bottomDecoration" style="height: 5px;"></div>
+    <ol data-dojo-type="dijit/form/HorizontalRuleLabels" container="bottomDecoration" labels="0%,50%,100%" style="height: 20px;"></ol>
+</div>
+</body>
+</html>
+

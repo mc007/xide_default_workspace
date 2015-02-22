@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>Untitled</title>
+
+
+<script type="text/javascript" src="dojo/dojo.js" data-dojo-config="'parseOnLoad':true,'async':true,'packages':[{'name':'gridx','location':'../../lib/dojo/gridx'},{'name':'clipart','location':'../../lib/clipart'},{'name':'xide','location':'../../lib/xide'},{'name':'maqettaSamples','location':'../../samples'},{'name':'maqetta','location':'../../lib/maqetta'},{'name':'shapes','location':'../../lib/shapes'},{'name':'widgets','location':'../../WebContent/lib/custom'},{'name':'xapp','location':'http://192.168.1.37/x4mm/Code/client/src/lib//xapp/'}],'themeMap':[['Android','',['themes/android/android.css']],['BlackBerry','',['themes/blackberry/blackberry.css']],['iPad','',['themes/ipad/ipad.css']],['iPhone','',['themes/iphone/iphone.css']],['.*','',['themes/iphone/iphone.css']]],'mblThemeFiles':[],'mblLoadCompatPattern':''"></script>
+<script type="text/javascript">
+require([
+  "dijit/dijit",
+  "dojo/parser",
+  "maqetta/space",
+  "maqetta/AppStates",
+  "dijit/form/Button",
+  "dijit/form/DropDownButton",
+  "dijit/Menu",
+  "dijit/MenuItem",
+  "dojox/form/TimeSpinner",
+  "dijit/form/VerticalSlider",
+  "dijit/form/VerticalRule",
+  "dijit/form/VerticalRuleLabels",
+  "dijit/form/NumberSpinner",
+  "dijit/layout/ContentPane",
+  "dijit/form/ComboButton",
+  "dijit/form/HorizontalSlider",
+  "dijit/form/HorizontalRule",
+  "dijit/form/HorizontalRuleLabels",
+  "dijit/form/ComboBox"
+]);
+</script>
+
+
+<style>
+    @import "../themes/claro/document.css";
+    @import "../themes/claro/claro.css";
+
+</style>
+
+<!--script type="text/javascript" src="app.js"></scri--><!--ipt type="text/javascript" src="test.js"></script--></head>
+<body data-maq-flow-layout="false" data-maq-comptype="desktop" class="claro" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}">
+ <div data-dojo-type="dijit/layout/ContentPane" title="Pane" extractContent="false" preventCache="false" preload="false" refreshOnShow="false" doLayout="true" style="position: absolute; box-sizing: content-box; -webkit-box-sizing: content-box; -ms-box-sizing: content-box; -moz-box-sizing: content-box; background-color: white; width: 100%; height: 100%;">
+ <input type="button" data-dojo-type="dijit/form/Button" intermediateChanges="false" label="Button" iconClass="dijitNoIcon" style="position: absolute; left: 20.999996948242185px; top: 104.55000305175781px;"></input>
+   <input type="button" data-dojo-type="dijit/form/Button" intermediateChanges="false" label="Button" iconClass="dijitNoIcon" style="position: absolute; left: 56.999996948242185px; top: 43.55px;"></input>
+   <div data-dojo-type="dijit/form/HorizontalSlider" value="100" intermediateChanges="false" maximum="98" discreteValues="Infinity" style="padding: 1em; position: absolute; height: auto; width: 246px; left: 21px; top: 269px;">
+     <div data-dojo-type="dijit/form/HorizontalRule" count="5" container="bottomDecoration" style="height: 5px;"></div>
+     <ol data-dojo-type="dijit/form/HorizontalRuleLabels" container="bottomDecoration" labels="0%,50%,100%" style="height: 20px;"></ol>
+   </div>
+   <select data-dojo-type="dijit/form/ComboBox" value="Item 1" intermediateChanges="false" trim="false" uppercase="false" lowercase="false" propercase="false" invalidMessage="$_unset_$" pageSize="Infinity" searchDelay="200" style="position: absolute; left: 21px; top: 146.5px;">
+     <option value="Item 1" selected="true">
+       Item 1</option>
+     <option value="Item 2">
+       Item 2</option>
+     <option value="Item 3">
+       Item 3</option>
+   </select>
+   <div style="position: absolute; width: 94px; height: 61px; background-color: black; left: 21px; top: 189.5px;"></div>
+ </div>
+ </body>
+</html>
+ 

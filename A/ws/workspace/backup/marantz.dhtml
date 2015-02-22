@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <script type="text/javascript">
+        require([
+        	"delite/register",
+        	"deliteful/Button"
+				]);
+    </script>
+<style>
+  .group {
+    margin : 20px;
+    padding : 10px;
+    border : 1px solid gray;
+    border-radius : 6px;
+}
+
+  .d-icon-phone::before {
+    content : "\260E";
+    padding-right : 4px;
+}
+
+  .d-big-icon {
+    font-size : 120%;
+}
+
+  .d-button-green {
+    
+  /* Default style */
+background-color : #47D147;
+    color : white;
+    border-color : #6FBF6F;
+}
+
+  .d-button-green:focus,  .d-button-green:hover {
+    
+  /* Style when the button is focused or hovered */
+background-color : #51F051;
+    color : white;
+    border-color : #4FE34F;
+}
+
+  .d-button-green:active {
+    
+  /* Style when the button is pressed */
+background-color : #55FF55;
+}
+
+
+
+  </style>
+
+
+  </head>
+
+
+
+<body data-maq-flow-layout="false" data-maq-comptype="delite" class="claro" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}">
+
+<div class="group" style="width: 469.8333282470703px; height: 65.66668701171875px;">
+ <button is="d-button" label="Default button">
+ </button>
+ <button is="d-button" class="d-button-blue" label="Blue button" style="height: 62.33332824707031px; width: 176.3333282470703px;"></button>
+ <button is="d-button" class="d-button-red" label="Red button"></button>
+ <button is="d-button" iconClass="d-icon-phone" label="Custom with icon" class="d-button-green"></button>
+ <button is="d-button" title="Custom with icon" class="d-button-green" label="last" disabled="true"></button>
+</div>
+</body>
+</html>
+
