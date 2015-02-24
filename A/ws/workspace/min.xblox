@@ -1,0 +1,22 @@
+{
+  "blocks": [
+    {
+      "_containsChildrenIds": [],
+      "group": "On Load",
+      "id": "e813a85f-7511-723f-bc1f-c13698456a5b",
+      "method": "console.log('script!! : ',this);",
+      "name": "Run Script",
+      "args": "",
+      "deferred": false,
+      "declaredClass": "xblox.model.code.RunScript",
+      "enabled": true,
+      "serializeMe": true,
+      "shareTitle": "Log Me",
+      "description": "No Description",
+      "canDelete": true,
+      "renderBlockIcon": true,
+      "order": 0
+    }
+  ],
+  "variables": []
+}

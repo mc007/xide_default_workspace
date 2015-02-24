@@ -59,7 +59,7 @@ background-color : #55FF55;
 </style>
 
 </head>
- <body data-maq-flow-layout="false" data-maq-comptype="delite" class="claro" data-maq-ws="collapse" data-maq-appstates="{}" id="myapp">
+ <body data-maq-flow-layout="false" data-maq-comptype="delite" class="claro" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}">
   <button is="d-button" label="On" title="Default Label">
 <d-xscript style="position: absolute; left: 41px; top: 36px;" scopeid="235eb680-cb87-11e3-9c1a-0800200c9a66" targetevent="click" blockid="bba495ad-e5de-d4d9-1550-7ea9e2fa7a0a" script="PowerOn"></d-xscript>
  </button>
@@ -67,8 +67,7 @@ background-color : #55FF55;
    <d-xscript style="position: absolute; left: 82px; top: 34px;" scopeid="235eb680-cb87-11e3-9c1a-0800200c9a66" targetevent="click" blockid="4313d13a-6fad-85e3-cf26-2cbac23c4934" script="PowerStandby"></d-xscript>
  </button>
   <d-slider value="0" sliderange="false">
-   <d-xscript style="position: absolute; left: 148px; top: 39px;" targetevent="change" blockid="5edc09c5-7118-84d1-69b9-8321f3fb33aa" scopeid="235eb680-cb87-11e3-9c1a-0800200c9a66" script="SetMasterVolume" bidirectional="true" targetvariable="Volume"></d-xscript>
+ <d-xscript style="position: absolute; left: 148px; top: 39px;" targetevent="change" blockid="5edc09c5-7118-84d1-69b9-8321f3fb33aa" scopeid="235eb680-cb87-11e3-9c1a-0800200c9a66" script="SetMasterVolume" bidirectional="true" targetvariable="Volume"></d-xscript>
  </d-slider>
- <d-switch checkedlabel="ON" uncheckedlabel="OFF"></d-switch>
  </body>
 </html>
