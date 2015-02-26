@@ -59,7 +59,7 @@ background-color : #55FF55;
 </style>
 
 </head>
- <body data-maq-flow-layout="false" data-maq-comptype="delite" class="claro" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}">
+ <body data-maq-flow-layout="false" data-maq-comptype="delite" data-maq-ws="collapse" class="superhero" id="myapp" data-maq-appstates="{}">
   <button is="d-button" label="On" title="Default Label">
 <d-xscript style="position: absolute; left: 41px; top: 36px;" scopeid="235eb680-cb87-11e3-9c1a-0800200c9a66" targetevent="click" blockid="bba495ad-e5de-d4d9-1550-7ea9e2fa7a0a" script="PowerOn"></d-xscript>
  </button>
@@ -67,7 +67,12 @@ background-color : #55FF55;
    <d-xscript style="position: absolute; left: 82px; top: 34px;" scopeid="235eb680-cb87-11e3-9c1a-0800200c9a66" targetevent="click" blockid="4313d13a-6fad-85e3-cf26-2cbac23c4934" script="PowerStandby"></d-xscript>
  </button>
   <d-slider value="0" sliderange="false">
- <d-xscript style="position: absolute; left: 148px; top: 39px;" targetevent="change" blockid="5edc09c5-7118-84d1-69b9-8321f3fb33aa" scopeid="235eb680-cb87-11e3-9c1a-0800200c9a66" script="SetMasterVolume" bidirectional="true" targetvariable="Volume"></d-xscript>
+<d-xscript style="position: absolute; left: 148px; top: 39px;" targetevent="change" blockid="5edc09c5-7118-84d1-69b9-8321f3fb33aa" scopeid="235eb680-cb87-11e3-9c1a-0800200c9a66" script="SetMasterVolume" bidirectional="true" targetvariable="Volume"></d-xscript>
  </d-slider>
- </body>
+ <br/>
+ <br/>
+  <button is="d-button" label="Test" title="Default Label">
+ <d-xscript style="position:relative" ignorePosition="true" blockid="e813a85f-7511-723f-bc1f-c13698456a5b" scopeid="0cf1afd5-220d-77ce-f627-7c18229d5315" targetevent="click" enabled="true" stop="true" script="Run Script(Log Me)" block="workspace://min.xblox" sourceevent="onDriverVariableChanged" sourceeventvaluepath="item.value" sourceeventnamepath="item.title" bidirectional="true" targetvariable="Volume"></d-xscript>
+ </button>
+  </body>
 </html>
