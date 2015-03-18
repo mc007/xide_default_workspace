@@ -13,7 +13,21 @@
   "deliteful/Checkbox",
   "deliteful/RadioButton"
 ]);
+
+						/*** The document settings
+            */
+            var xideveSettings = {
+
+                xbloxScripts: [
+                    {
+                        name: 'min',
+                        mount:'root',
+                        path: 'min.xblox'
+                    }
+                ]
+            };
     </script>
+    
 <style>
   .group {
     margin : 20px;
@@ -59,12 +73,12 @@ background-color : #55FF55;
 
 
 </head>
- <body data-maq-flow-layout="false" data-maq-comptype="delite" class="claro" data-maq-ws="collapse" data-maq-appstates="{}" id="myapp">
+ <body data-maq-flow-layout="false" data-maq-comptype="delite" class="claro" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}">
   <button is="d-button" label="On" id="Power Off" title="Default Label" style="color: white;"></button>
   <button is="d-button" label="Off" title="Default Label" style="left: 47.33806610107422px; top: 0px;" class="d-button-danger">
 </button>
   <d-slider value="0">
-  <input value=","></input>
+<input value=","></input>
 </d-slider>
   <d-radio-button name="category" value=""></d-radio-button>
 </body></html>

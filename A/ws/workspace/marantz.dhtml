@@ -4,17 +4,12 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <script type="text/javascript">
-        require([
-  "delite/register",
-  "deliteful/Button",
-  "xblox/RunScript",
-  "deliteful/Slider",
-  "deliteful/Combobox",
-  "deliteful/RadioButton",
-  "deliteful/Checkbox",
-  "deliteful/Switch",
-  "deliteful/ToggleButton"
-]);
+		require([
+		  "delite/register",
+		  "deliteful/Button",
+		  "xblox/RunScript",
+		  "deliteful/Slider"
+	]);
     </script>
 <style>
   .group {
@@ -56,23 +51,34 @@ background-color : #55FF55;
 }
 
 
+
 </style>
 
+
 </head>
- <body data-maq-flow-layout="false" data-maq-comptype="delite" data-maq-ws="collapse" class="superhero" id="myapp" data-maq-appstates="{}">
-  <button is="d-button" label="On" title="Default Label">
-<d-xscript style="position: absolute; left: 41px; top: 36px;" scopeid="235eb680-cb87-11e3-9c1a-0800200c9a66" targetevent="click" blockid="bba495ad-e5de-d4d9-1550-7ea9e2fa7a0a" script="PowerOn"></d-xscript>
+ <body data-maq-flow-layout="false" data-maq-comptype="delite" class="claro" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}">
+
+ <script type="text/javascript">
+var xideveSettings2={
+          xbloxScripts: [
+              {
+                  name: 'min',
+                  mount:'workspace',
+                  path: 'min.xblox'
+              }
+          ]
+      };
+</script>
+
+  <button is="d-button" label="On" id="Power Off" title="Default Label" style="color: white;">
+   <d-xscript style="position: absolute; left: 38px; top: 38px;" scopeid="235eb680-cb87-11e3-9c1a-0800200c9a66" targetevent="click" blockid="bba495ad-e5de-d4d9-1550-7ea9e2fa7a0a" script="PowerOn"></d-xscript>
  </button>
-  <button is="d-button" label="Off" title="Default Label" class="d-button-danger">
-   <d-xscript style="position: absolute; left: 82px; top: 34px;" scopeid="235eb680-cb87-11e3-9c1a-0800200c9a66" targetevent="click" blockid="4313d13a-6fad-85e3-cf26-2cbac23c4934" script="PowerStandby"></d-xscript>
+  <button is="d-button" label="Off" title="Default Label" style="left: 47.33806610107422px; top: 0px;" class="d-button-danger">
+   <d-xscript style="position: absolute; left: 87px; top: 36px;" scopeid="235eb680-cb87-11e3-9c1a-0800200c9a66" targetevent="click" blockid="4313d13a-6fad-85e3-cf26-2cbac23c4934" script="PowerStandby"></d-xscript>
  </button>
   <d-slider value="0" sliderange="false">
-<d-xscript style="position: absolute; left: 148px; top: 39px;" targetevent="change" blockid="5edc09c5-7118-84d1-69b9-8321f3fb33aa" scopeid="235eb680-cb87-11e3-9c1a-0800200c9a66" script="SetMasterVolume" bidirectional="true" targetvariable="Volume"></d-xscript>
+ <d-xscript style="position: absolute; left: 145px; top: 39px;" bidirectional="true" targetevent="change" targetvariable="Volume" blockid="5edc09c5-7118-84d1-69b9-8321f3fb33aa" scopeid="235eb680-cb87-11e3-9c1a-0800200c9a66" script="SetMasterVolume"></d-xscript>
  </d-slider>
- <br/>
- <br/>
-  <button is="d-button" label="Test" title="Default Label">
- <d-xscript style="position:relative" ignorePosition="true" blockid="e813a85f-7511-723f-bc1f-c13698456a5b" scopeid="0cf1afd5-220d-77ce-f627-7c18229d5315" targetevent="click" enabled="true" stop="true" script="Run Script(Log Me)" block="workspace://min.xblox" sourceevent="onDriverVariableChanged" sourceeventvaluepath="item.value" sourceeventnamepath="item.title" bidirectional="true" targetvariable="Volume"></d-xscript>
- </button>
   </body>
 </html>
+

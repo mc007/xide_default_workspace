@@ -1,10 +1,12 @@
 {
   "blocks": [
     {
-      "_containsChildrenIds": [],
+      "_containsChildrenIds": [
+        "items"
+      ],
       "group": "On Load",
       "id": "e813a85f-7511-723f-bc1f-c13698456a5b",
-      "method": "console.log('script!! : ',this);",
+      "method": "console.log('script!!:',this);",
       "name": "Run Script",
       "args": "",
       "deferred": false,
@@ -13,6 +15,43 @@
       "serializeMe": true,
       "shareTitle": "Log Me",
       "description": "No Description",
+      "canDelete": true,
+      "renderBlockIcon": true,
+      "order": 0,
+      "items": [
+        "b59b0d8d-7010-e9d7-5ab5-d2c86f124e97"
+      ]
+    },
+    {
+      "_containsChildrenIds": [],
+      "parentId": "e813a85f-7511-723f-bc1f-c13698456a5b",
+      "id": "b59b0d8d-7010-e9d7-5ab5-d2c86f124e97",
+      "method": "console.error('error');",
+      "name": "Run Script",
+      "args": "",
+      "deferred": false,
+      "declaredClass": "xblox.model.code.RunScript",
+      "enabled": true,
+      "serializeMe": true,
+      "shareTitle": "",
+      "description": "No Description",
+      "canDelete": true,
+      "renderBlockIcon": true,
+      "order": 0
+    },
+    {
+      "_containsChildrenIds": [],
+      "group": "On Load",
+      "id": "9866497e-c737-06d5-a4f1-1f0a8a9c43ff",
+      "value": "background-color:blue;border:2px solid black;padding:1em;font-family:'Comic Sans MS',cursive;color:#b39292;font-size:10pt;",
+      "shareTitle": "MyFontAdjuster",
+      "name": "Set Style",
+      "reference": "",
+      "description": "Sets HTML Node Style Attribute",
+      "mode": 1,
+      "declaredClass": "xblox.model.html.SetStyle",
+      "enabled": true,
+      "serializeMe": true,
       "canDelete": true,
       "renderBlockIcon": true,
       "order": 0
