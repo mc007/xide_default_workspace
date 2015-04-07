@@ -73,10 +73,7 @@ background-color : #55FF55;
 
 
 </head>
- <body data-maq-flow-layout="false" data-maq-comptype="delite" class="claro" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}">
-  <button is="d-button" label="On" id="Power Off" title="Default Label" style="color: white;">
-   <d-xscript style="position: absolute; left: 49px; top: 35px;" scopeid="235eb680-cb87-11e3-9c1a-0800200c9a66" targetevent="click" blockid="bba495ad-e5de-d4d9-1550-7ea9e2fa7a0a" script="PowerOn"></d-xscript>
- </button>
+ <body data-maq-flow-layout="false" data-maq-comptype="delite" class="claro" data-maq-ws="collapse" data-maq-appstates="{}" id="myapp">
   <d-radio-button name="category" value=""></d-radio-button>
   <d-slider value="0">
 <input value=","></input>
