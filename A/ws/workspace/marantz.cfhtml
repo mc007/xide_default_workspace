@@ -106,13 +106,6 @@
 </div>
 
 
-<span data-dojo-type="dijit/form/DropDownButton" intermediateChanges="false" label="Source" iconClass="dijitNoIcon" style="position: absolute; left: 22px; top: 280px;">
-<span data-dojo-type="dijit/Menu" contextMenuForWindow="false" leftClickToOpen="false" tabIndex="0">
-     <span data-dojo-type="dijit/MenuItem" label="DVD" iconClass="dijitNoIcon"></span>
-     <span data-dojo-type="dijit/MenuItem" label="TV" iconClass="dijitNoIcon"></span>
- </span>
-
-</span>
 <div data-dojo-type="dijit/form/HorizontalSlider" intermediateChanges="false" maximum="98" discreteValues="Infinity" style="height: auto; position: absolute; left: 21.000004350585936px; top: 139px; width: 210px;">
   <div data-dojo-type="dijit/form/HorizontalRule" container="bottomDecoration" style="height: 5px;"></div>
     <ol data-dojo-type="dijit/form/HorizontalRuleLabels" container="bottomDecoration" labels="0%,50%,100%" style="height: 20px;"></ol>
