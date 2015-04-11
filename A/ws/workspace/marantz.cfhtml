@@ -7,28 +7,31 @@
     <script type="text/javascript" src="http://192.168.1.37/projects/xbox-app//client/src/lib/dojo/dojo.js" data-dojo-config="'has':{'xblox':true},'tlmSiblingOfDojo':0,'baseUrl':'http://192.168.1.37/projects/xbox-app//client/src/lib/dojo','parseOnLoad':true,'async':true,'packages':[{'name':'gridx','location':'../../lib/dojo/gridx'},{'name':'clipart','location':'../../lib/clipart'},{'name':'xide','location':'../../lib/xide'},{'name':'xblox','location':'../../lib/xblox'},{'name':'maqettaSamples','location':'../../samples'},{'name':'maqetta','location':'../../lib/maqetta'},{'name':'shapes','location':'../../lib/shapes'},{'name':'widgets','location':'../../WebContent/lib/custom'},{'name':'xapp','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//xapp'},{'name':'dijit','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//dijit'},{'name':'dojox','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//dojox'},{'name':'xblox','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//xblox'},{'name':'dstore','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//dstore'},{'name':'xide','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//xide'},{'name':'xfile','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//xfile'},{'name':'xwire','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//xwire'},{'name':'delite','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//ibm-js/delite'},{'name':'deliteful','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//ibm-js/deliteful'},{'name':'decor','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//ibm-js/decor'},{'name':'dpointer','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//ibm-js/dpointer'},{'name':'dcl','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//ibm-js/dcl'},{'name':'requirejs-dplugins','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//ibm-js/requirejs-dplugins'},{'name':'requirejs-domready','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//ibm-js/requirejs-domready'},{'name':'requirejs-text','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//ibm-js/requirejs-text'},{'name':'jquery','location':'http://127.0.0.1/projects/x4mm/Code/client/src/lib//ibm-js/jquery'}],'themeMap':[['Android','',['themes/android/android.css']],['BlackBerry','',['themes/blackberry/blackberry.css']],['iPad','',['themes/ipad/ipad.css']],['iPhone','',['themes/iphone/iphone.css']],['.*','',['themes/iphone/iphone.css']]],'mblThemeFiles':[],'mblLoadCompatPattern':''"></script>
     <script type="text/javascript">
         require([
-            "dijit/dijit",
-            "dojo/Deferred",
-            "dojo/parser",
-            "dijit/form/Button",
-            "maqetta/space",
-            "maqetta/AppStates",
-            "dijit/form/HorizontalSlider",
-            "dijit/form/HorizontalRule",
-            "dijit/form/HorizontalRuleLabels",
-            "dijit/layout/BorderContainer",
-            "dijit/layout/AccordionContainer",
-            "dijit/layout/ContentPane",
-            "xblox/RunScript",
-            "dijit/form/Form",
-            "dijit/form/ToggleButton",
-            "dijit/form/DropDownButton",
-            "dijit/Menu",
-            "dijit/MenuItem",
-            "dijit/form/ComboBox",
-            "dijit/form/FilteringSelect",
-            "dijit/form/ComboButton"
-        ]);
+  "dijit/dijit",
+  "dojo/Deferred",
+  "dojo/parser",
+  "dijit/form/Button",
+  "maqetta/space",
+  "maqetta/AppStates",
+  "dijit/form/HorizontalSlider",
+  "dijit/form/HorizontalRule",
+  "dijit/form/HorizontalRuleLabels",
+  "dijit/layout/BorderContainer",
+  "dijit/layout/AccordionContainer",
+  "dijit/layout/ContentPane",
+  "xblox/RunScript",
+  "dijit/form/Form",
+  "dijit/form/ToggleButton",
+  "dijit/form/DropDownButton",
+  "dijit/Menu",
+  "dijit/MenuItem",
+  "dijit/form/ComboBox",
+  "dijit/form/FilteringSelect",
+  "dijit/form/ComboButton",
+  "dojo/store/Memory",
+  "dijit/tree/ObjectStoreModel",
+  "dijit/Tree"
+]);
     </script>
 
     <style>
@@ -109,6 +112,21 @@
 <div data-dojo-type="dijit/form/HorizontalSlider" intermediateChanges="false" maximum="98" discreteValues="Infinity" style="height: auto; position: absolute; left: 21.000004350585936px; top: 139px; width: 210px;">
   <div data-dojo-type="dijit/form/HorizontalRule" container="bottomDecoration" style="height: 5px;"></div>
     <ol data-dojo-type="dijit/form/HorizontalRuleLabels" container="bottomDecoration" labels="0%,50%,100%" style="height: 20px;"></ol>
+</div>
+<div data-dojo-type="dojo/store/Memory" id="Memory_1" jsId="Memory_1" data="[{&quot;id&quot;:&quot;treeRoot&quot;,&quot;label&quot;:&quot;Root&quot;},{&quot;id&quot;:&quot;1&quot;,&quot;label&quot;:&quot;1&quot;,&quot;parent&quot;:&quot;treeRoot&quot;},{&quot;id&quot;:&quot;1.1&quot;,&quot;label&quot;:&quot;1.1&quot;,&quot;parent&quot;:&quot;1&quot;,&quot;leaf&quot;:&quot;true&quot;},{&quot;id&quot;:&quot;1.2&quot;,&quot;label&quot;:&quot;1.2&quot;,&quot;parent&quot;:&quot;1&quot;,&quot;leaf&quot;:&quot;true&quot;},{&quot;id&quot;:&quot;2&quot;,&quot;label&quot;:&quot;2&quot;,&quot;parent&quot;:&quot;treeRoot&quot;},{&quot;id&quot;:&quot;2.1&quot;,&quot;label&quot;:&quot;2.1&quot;,&quot;parent&quot;:&quot;2&quot;,&quot;leaf&quot;:&quot;true&quot;},{&quot;id&quot;:&quot;2.2&quot;,&quot;label&quot;:&quot;2.2&quot;,&quot;parent&quot;:&quot;2&quot;,&quot;leaf&quot;:&quot;true&quot;},{&quot;id&quot;:&quot;2.3&quot;,&quot;label&quot;:&quot;2.3&quot;,&quot;parent&quot;:&quot;2&quot;,&quot;leaf&quot;:&quot;true&quot;}]">
+  <script type="dojo/method" data-dojo-event="getChildren" data-dojo-args="item">
+    return this.query({parent: this.getIdentity(item)});</script>
+</div>
+<div data-dojo-type="dijit/tree/ObjectStoreModel" id="ObjectStoreModel_1" jsId="ObjectStoreModel_1" query="{&quot;id&quot;:&quot;treeRoot&quot;}" labelAttr="label" store="Memory_1">
+<script type="dojo/method" data-dojo-event="mayHaveChildren" data-dojo-args="item">
+    return !item.leaf;</script>
+</div>
+<div data-dojo-type="dijit/Tree" autoExpand="true" showRoot="false" childrenAttr="children" openOnClick="false" openOnDblClick="false" persist="false" dndParams="onDndDrop,itemCreator,onDndCancel,checkAcceptance,checkItemAcceptance,dragThreshold,betweenThreshold" dragThreshold="5" betweenThreshold="0" style="min-height: 1em; position: absolute; left: 21px; top: 288px; width: 300px; height: 300px;" model="ObjectStoreModel_1">
+  <script type="dojo/method" data-dojo-event="getIconStyle" data-dojo-args="item, opened">var iconStyle = item.iconStyle;if (opened && item.iconStyleOpen) {	iconStyle = item.iconStyleOpen;};return iconStyle;</script>
+  <script type="dojo/connect" data-dojo-event="onClick" data-dojo-args="item, node, evt">var eventStr = item['onClick'];if (eventStr) { 	dojo.eval(eventStr);}</script>
+  <script type="dojo/connect" data-dojo-event="onDblClick" data-dojo-args="item, node, evt">var eventStr = item['onDblClick'];if (eventStr) { 	dojo.eval(eventStr);}</script>
+  <script type="dojo/connect" data-dojo-event="onClose" data-dojo-args="item, node">var eventStr = item['onClose'];if (eventStr) { 	dojo.eval(eventStr);}</script>
+  <script type="dojo/connect" data-dojo-event="onOpen" data-dojo-args="item, node">var eventStr = item['onOpen'];if (eventStr) { 	dojo.eval(eventStr);}</script>
 </div>
 </body>
 </html>
