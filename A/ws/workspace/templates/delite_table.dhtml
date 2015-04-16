@@ -33,18 +33,15 @@
   </style>
 
   </head>
-  
 
-
-
-  <body data-maq-flow-layout="false" data-maq-comptype="delite" class="claro" data-maq-ws="collapse" style="position:absolute" id="myapp" data-maq-appstates="{}">
+  <body data-maq-flow-layout="false" data-maq-comptype="delite" class="claro" data-maq-ws="collapse" style="position:absolute" data-maq-appstates="{}" id="myapp">
 
     <script type="text/javascript">
       var xideveSettings = {
         xbloxScripts: []
       };
     </script>
-    <button is="d-button" label="Default Label" title="Default Label" class="myButton"></button>
+    <button is="d-button" label="Default Label" title="Default Label" style="position: absolute; left: 119px; top: 176px; width: 192px;" class="myButton"></button>
   </body>
 
   </html>
