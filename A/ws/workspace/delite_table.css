@@ -8,7 +8,6 @@
   background: -o-linear-gradient(top,#eae0c2 5%,#ccc2a6 100%);
   background: -ms-linear-gradient(top,#eae0c2 5%,#ccc2a6 100%);
   background: linear-gradient(to bottom,#eae0c2 5%,#ccc2a6 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eae0c2',endColorstr='#ccc2a6',GradientType=0);
   background-color: #eae0c2;
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
@@ -31,7 +30,6 @@
   background: -o-linear-gradient(top,#ccc2a6 5%,#eae0c2 100%);
   background: -ms-linear-gradient(top,#ccc2a6 5%,#eae0c2 100%);
   background: linear-gradient(to bottom,#ccc2a6 5%,#eae0c2 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc2a6',endColorstr='#eae0c2',GradientType=0);
   background-color: #ccc2a6;
 }
 #myapp .myButton:active {
