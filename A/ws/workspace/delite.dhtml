@@ -71,7 +71,7 @@ background-color : #55FF55;
 
 </head>
 
-<body data-maq-flow-layout="false" data-maq-comptype="delite" class="claro" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}">
+<body data-maq-flow-layout="true" data-maq-comptype="delite" class="claro" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}">
  <button is="d-button" label="Default Label">
 <d-xscript style="position: absolute; left: 56px; top: 23px;" scopeid="dd2985b9-9071-1682-226c-70b84b481117" targetevent="click" blockid="f0af83ed-9966-6b9e-04fb-cd288a19c911" script="Mute"></d-xscript>
 </button>

@@ -110,23 +110,8 @@
 
 
 <div data-dojo-type="dijit/form/HorizontalSlider" intermediateChanges="false" maximum="98" discreteValues="Infinity" style="height: auto; position: absolute; left: 21.000004350585936px; top: 139px; width: 210px;">
-  <div data-dojo-type="dijit/form/HorizontalRule" container="bottomDecoration" style="height: 5px;"></div>
+<div data-dojo-type="dijit/form/HorizontalRule" container="bottomDecoration" style="height: 5px;"></div>
     <ol data-dojo-type="dijit/form/HorizontalRuleLabels" container="bottomDecoration" labels="0%,50%,100%" style="height: 20px;"></ol>
-</div>
-<div data-dojo-type="dojo/store/Memory" id="Memory_1" jsId="Memory_1" data="[{&quot;id&quot;:&quot;treeRoot&quot;,&quot;label&quot;:&quot;Root&quot;},{&quot;id&quot;:&quot;1&quot;,&quot;label&quot;:&quot;1&quot;,&quot;parent&quot;:&quot;treeRoot&quot;},{&quot;id&quot;:&quot;1.1&quot;,&quot;label&quot;:&quot;1.1&quot;,&quot;parent&quot;:&quot;1&quot;,&quot;leaf&quot;:&quot;true&quot;},{&quot;id&quot;:&quot;1.2&quot;,&quot;label&quot;:&quot;1.2&quot;,&quot;parent&quot;:&quot;1&quot;,&quot;leaf&quot;:&quot;true&quot;},{&quot;id&quot;:&quot;2&quot;,&quot;label&quot;:&quot;2&quot;,&quot;parent&quot;:&quot;treeRoot&quot;},{&quot;id&quot;:&quot;2.1&quot;,&quot;label&quot;:&quot;2.1&quot;,&quot;parent&quot;:&quot;2&quot;,&quot;leaf&quot;:&quot;true&quot;},{&quot;id&quot;:&quot;2.2&quot;,&quot;label&quot;:&quot;2.2&quot;,&quot;parent&quot;:&quot;2&quot;,&quot;leaf&quot;:&quot;true&quot;},{&quot;id&quot;:&quot;2.3&quot;,&quot;label&quot;:&quot;2.3&quot;,&quot;parent&quot;:&quot;2&quot;,&quot;leaf&quot;:&quot;true&quot;}]">
-  <script type="dojo/method" data-dojo-event="getChildren" data-dojo-args="item">
-    return this.query({parent: this.getIdentity(item)});</script>
-</div>
-<div data-dojo-type="dijit/tree/ObjectStoreModel" id="ObjectStoreModel_1" jsId="ObjectStoreModel_1" query="{&quot;id&quot;:&quot;treeRoot&quot;}" labelAttr="label" store="Memory_1">
-<script type="dojo/method" data-dojo-event="mayHaveChildren" data-dojo-args="item">
-    return !item.leaf;</script>
-</div>
-<div data-dojo-type="dijit/Tree" autoExpand="true" showRoot="false" childrenAttr="children" openOnClick="false" openOnDblClick="false" persist="false" dndParams="onDndDrop,itemCreator,onDndCancel,checkAcceptance,checkItemAcceptance,dragThreshold,betweenThreshold" dragThreshold="5" betweenThreshold="0" style="min-height: 1em; position: absolute; left: 21px; top: 288px; width: 300px; height: 300px;" model="ObjectStoreModel_1">
-  <script type="dojo/method" data-dojo-event="getIconStyle" data-dojo-args="item, opened">var iconStyle = item.iconStyle;if (opened && item.iconStyleOpen) {	iconStyle = item.iconStyleOpen;};return iconStyle;</script>
-  <script type="dojo/connect" data-dojo-event="onClick" data-dojo-args="item, node, evt">var eventStr = item['onClick'];if (eventStr) { 	dojo.eval(eventStr);}</script>
-  <script type="dojo/connect" data-dojo-event="onDblClick" data-dojo-args="item, node, evt">var eventStr = item['onDblClick'];if (eventStr) { 	dojo.eval(eventStr);}</script>
-  <script type="dojo/connect" data-dojo-event="onClose" data-dojo-args="item, node">var eventStr = item['onClose'];if (eventStr) { 	dojo.eval(eventStr);}</script>
-  <script type="dojo/connect" data-dojo-event="onOpen" data-dojo-args="item, node">var eventStr = item['onOpen'];if (eventStr) { 	dojo.eval(eventStr);}</script>
 </div>
 </body>
 </html>
