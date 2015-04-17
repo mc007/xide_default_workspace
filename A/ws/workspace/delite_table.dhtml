@@ -33,9 +33,6 @@
   </style>
 
   </head>
-  
-
-
 
   <body data-maq-flow-layout="false" data-maq-comptype="delite" class="claro" data-maq-ws="collapse" style="position:absolute" id="myapp" data-maq-appstates="{}">
 
@@ -44,7 +41,7 @@
         xbloxScripts: []
       };
     </script>
-    <button is="d-button" label="Default Label" title="Default Label" class="myButton"></button>
+    <button is="d-button" label="Default Label" title="Default Label" style="position: absolute; width: 192px; left: 300px; top: 57px;" class="myButton"></button>
   </body>
 
   </html>
