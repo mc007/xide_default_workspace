@@ -41,7 +41,7 @@
         xbloxScripts: []
       };
     </script>
-    <button is="d-button" label="Default Label" title="Default Label" style="position: absolute; width: 192px; left: 300px; top: 57px;" class="myButton"></button>
+    <button is="d-button" label="Default Label" title="Default Label" style="position: absolute; width: 192px; left: 61px; top: 41px;" class="myButton"></button>
   </body>
 
   </html>
