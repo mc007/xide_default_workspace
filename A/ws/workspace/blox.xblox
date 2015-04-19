@@ -14,7 +14,8 @@
       "enabled": true,
       "canDelete": true,
       "renderBlockIcon": true,
-      "order": 0
+      "order": 0,
+      "shareTitle": ""
     },
     {
       "_containsChildrenIds": [],
@@ -30,7 +31,8 @@
       "enabled": true,
       "canDelete": true,
       "renderBlockIcon": true,
-      "order": 0
+      "order": 0,
+      "shareTitle": ""
     },
     {
       "_containsChildrenIds": [
@@ -50,7 +52,8 @@
       "order": 0,
       "items": [
         "6d6d310f-7dcd-4598-6b04-ff29384b7a9d"
-      ]
+      ],
+      "shareTitle": ""
     },
     {
       "_containsChildrenIds": [
@@ -70,7 +73,8 @@
       "enabled": true,
       "canDelete": true,
       "renderBlockIcon": true,
-      "order": 0
+      "order": 0,
+      "shareTitle": ""
     },
     {
       "_containsChildrenIds": [
@@ -91,7 +95,8 @@
       "items": [
         "078650c1-29a0-3705-052f-bb71981e5e49",
         "ce316660-70e2-0806-75db-2d2b7d16006e"
-      ]
+      ],
+      "shareTitle": ""
     },
     {
       "_containsChildrenIds": [],
@@ -107,7 +112,10 @@
       "canDelete": true,
       "renderBlockIcon": true,
       "order": 0,
-      "parentId": "f0c979e8-d0df-8bd7-5b0c-ad5bd8de95e5"
+      "parentId": "f0c979e8-d0df-8bd7-5b0c-ad5bd8de95e5",
+      "value": "",
+      "mode": 1,
+      "shareTitle": ""
     },
     {
       "_containsChildrenIds": [],
@@ -123,7 +131,8 @@
       "enabled": true,
       "canDelete": true,
       "renderBlockIcon": true,
-      "order": 0
+      "order": 0,
+      "shareTitle": ""
     }
   ],
   "variables": [
@@ -135,18 +144,20 @@
       "save": false,
       "initialize": "",
       "group": "Variables",
-      "id": "9c1d5f2c-6f33-61dc-375d-e0864c35d1af",
+      "id": "510079d6-727d-a272-6c8b-957ea49a4ee1",
       "register": true,
       "readOnly": false,
       "declaredClass": "xblox.model.variables.Variable",
-      "serializeMe": true,
-      "description": "No Description",
       "enabled": true,
-      "canDelete": true,
-      "renderBlockIcon": true,
+      "serializeMe": true,
+      "shareTitle": "",
+      "sharable": false,
       "_currentIndex": 0,
       "_onLoaded": false,
       "beanType": "BLOCK",
+      "description": "No Description",
+      "canDelete": true,
+      "renderBlockIcon": true,
       "order": 0
     }
   ]
