@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 
+
+
 <head>
   <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -15,65 +17,21 @@
       "deliteful/RadioButton"
     ]);
 
-    /*** The document settings
-     */
-    var xideveSettings = {
-
-      xbloxScripts: [{
-        name: 'min',
-        mount: 'root',
-        path: 'min.xblox'
-      }]
-    };
+    
   </script>
 
-  <style>
-    .group {
-    margin : 20px;
-    padding : 10px;
-    border : 1px solid gray;
-    border-radius : 6px;
-}
-
-    .d-icon-phone::before {
-    content : "\260E";
-    padding-right : 4px;
-}
-
-    .d-big-icon {
-    font-size : 120%;
-}
-
-    .d-button-green {
-    
-  /* Default style */
-background-color : #47D147;
-    color : white;
-    border-color : #6FBF6F;
-}
-
-    .d-button-green:focus,  .d-button-green:hover {
-    
-  /* Style when the button is focused or hovered */
-background-color : #51F051;
-    color : white;
-    border-color : #4FE34F;
-}
-
-    .d-button-green:active {
-    
-  /* Style when the button is pressed */
-background-color : #55FF55;
-}
-
-
-</style>
 
 </head>
 
 <body data-maq-flow-layout="true" data-maq-comptype="delite" class="claro" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}">
+  <script type="text/javascript">
+      var xideveSettings = {
+        xbloxScripts: []
+      };
+    </script>
  <button is="d-button" label="Default Label">
-<d-xscript style="position: absolute; left: 56px; top: 23px;" scopeid="dd2985b9-9071-1682-226c-70b84b481117" targetevent="click" blockid="f0af83ed-9966-6b9e-04fb-cd288a19c911" script="Mute"></d-xscript>
+  <d-xscript style="position:relative" scopeid="dd2985b9-9071-1682-226c-70b84b481117" targetevent="click" blockid="f0af83ed-9966-6b9e-04fb-cd288a19c911" script="Mute"></d-xscript>
+  <d-xscript style="position:relative" scopeid="dd2985b9-9071-1682-226c-70b84b481117" targetevent="click" blockid="ff81a178-f871-5cf9-8683-7f3ce8080a9e" script="Mute2"></d-xscript>
 </button>
  </body>
 
