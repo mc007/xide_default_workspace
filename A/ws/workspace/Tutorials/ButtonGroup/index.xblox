@@ -1,0 +1,39 @@
+{
+  "blocks": [
+    {
+      "_containsChildrenIds": [],
+      "group": "btnMediaPlayer__click",
+      "id": "25aee545-67b8-35f1-bcdd-8c92c6338961",
+      "value": "background-color:#1b1818;",
+      "reference": "{\"reference\":\"btnRadio btnTV btnDVD btnMediaPlayer\",\"mode\":\"byid\"}",
+      "name": "Set Style",
+      "description": "Sets HTML Node Style Attribute",
+      "mode": 1,
+      "declaredClass": "xblox.model.html.SetStyle",
+      "enabled": true,
+      "serializeMe": true,
+      "shareTitle": "",
+      "canDelete": true,
+      "renderBlockIcon": true,
+      "order": 0
+    },
+    {
+      "_containsChildrenIds": [],
+      "group": "btnMediaPlayer__click",
+      "id": "bbc61abe-d5ca-b159-2e87-332148bc2c74",
+      "value": "background-color:green;",
+      "name": "Set Style",
+      "reference": "",
+      "description": "Sets HTML Node Style Attribute",
+      "mode": 1,
+      "declaredClass": "xblox.model.html.SetStyle",
+      "enabled": true,
+      "serializeMe": true,
+      "shareTitle": "",
+      "canDelete": true,
+      "renderBlockIcon": true,
+      "order": 0
+    }
+  ],
+  "variables": []
+}
