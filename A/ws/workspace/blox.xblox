@@ -93,28 +93,8 @@
       "renderBlockIcon": true,
       "order": 0,
       "items": [
-        "078650c1-29a0-3705-052f-bb71981e5e49",
         "ce316660-70e2-0806-75db-2d2b7d16006e"
       ],
-      "shareTitle": ""
-    },
-    {
-      "_containsChildrenIds": [],
-      "group": "On Load",
-      "id": "078650c1-29a0-3705-052f-bb71981e5e49",
-      "name": "Set Style",
-      "event": "",
-      "reference": "",
-      "description": "Sets HTML Node Style Attribute",
-      "declaredClass": "xblox.model.html.SetStyle",
-      "serializeMe": true,
-      "enabled": true,
-      "canDelete": true,
-      "renderBlockIcon": true,
-      "order": 0,
-      "parentId": "f0c979e8-d0df-8bd7-5b0c-ad5bd8de95e5",
-      "value": "",
-      "mode": 1,
       "shareTitle": ""
     },
     {
@@ -127,7 +107,7 @@
       "deferred": false,
       "declaredClass": "xblox.model.code.RunScript",
       "serializeMe": true,
-      "description": "No Description",
+      "description": "Runs an expression.<br/>\n\n<b>Behaviour</b>\n\n<pre>\n\n    //to abort execution (child blocks), return something negative as -1 or false.\n    return false;\n\n</pre>",
       "enabled": true,
       "canDelete": true,
       "renderBlockIcon": true,
@@ -139,7 +119,7 @@
     {
       "title": "No-Title-Yet",
       "type": 13,
-      "value": "No Value",
+      "value": "test.substring(indexA[, indexB])",
       "enumType": "VariableType",
       "save": false,
       "initialize": "",

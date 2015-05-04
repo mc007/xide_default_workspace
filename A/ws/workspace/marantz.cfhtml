@@ -101,9 +101,7 @@
         return headDfd;
     }
 </script>
-<div type="button" data-dojo-type="dijit/form/Button" intermediateChanges="false" label="Fade Vol Down" iconClass="dijitNoIcon" style="position: absolute; left: 21.000004350585936px; top: 221.00000435058593px;">
-
-</div>
+<div type="button" data-dojo-type="dijit/form/Button" intermediateChanges="false" label="Fade Vol D2own" iconClass="dijitNoIcon" style="position: absolute; left: 21.000004350585936px; top: 221.00000435058593px;"></div>
 <div type="button" data-dojo-type="dijit/form/Button" intermediateChanges="false" label="Fade Vol Up" iconClass="dijitNoIcon" style="position: absolute; left: 148px; top: 221.00000435058593px;">
 
 </div>

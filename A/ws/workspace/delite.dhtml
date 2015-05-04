@@ -8,14 +8,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <script type="text/javascript">
     require([
-      "delite/register",
-      "deliteful/Button",
-      "xblox/RunScript",
-      "deliteful/Slider",
-      "deliteful/Combobox",
-      "deliteful/Checkbox",
-      "deliteful/RadioButton"
-    ]);
+  "delite/register",
+  "deliteful/Button",
+  "xblox/RunScript",
+  "deliteful/Slider",
+  "deliteful/Combobox",
+  "deliteful/Checkbox",
+  "deliteful/RadioButton",
+  "deliteful/Switch",
+  "deliteful/ToggleButton"
+]);
 
     
   </script>
@@ -23,16 +25,14 @@
 
 </head>
 
-<body data-maq-flow-layout="true" data-maq-comptype="delite" class="claro" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}">
+<body data-maq-flow-layout="false" data-maq-comptype="delite" class="claro" data-maq-ws="collapse" data-maq-appstates="{}" id="myapp">
   <script type="text/javascript">
       var xideveSettings = {
         xbloxScripts: []
       };
     </script>
- <button is="d-button" label="Default Label">
-  <d-xscript style="position:relative" scopeid="dd2985b9-9071-1682-226c-70b84b481117" targetevent="click" blockid="f0af83ed-9966-6b9e-04fb-cd288a19c911" script="Mute"></d-xscript>
-  <d-xscript style="position:relative" scopeid="dd2985b9-9071-1682-226c-70b84b481117" targetevent="click" blockid="ff81a178-f871-5cf9-8683-7f3ce8080a9e" script="Mute2"></d-xscript>
-</button>
- </body>
-
+  <button is="d-button" label="Default Label" style="position: absolute; left: 62px; top: 110px; width: 202px; height: 151.43333435058594px;">
+   <d-xscript style="position: absolute; width: 46px; height: 34px; left: 77px; top: 50px;" scopeid="dd2985b9-9071-1682-226c-70b84b481117" targetevent="click" blockid="f0af83ed-9966-6b9e-04fb-cd288a19c911" script="Mute"></d-xscript>
+ </button>
+</body>
 </html>
