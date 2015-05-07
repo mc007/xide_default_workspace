@@ -25,14 +25,14 @@
 
 </head>
 
-<body data-maq-flow-layout="false" data-maq-comptype="delite" class="claro" data-maq-ws="collapse" data-maq-appstates="{}" id="myapp">
+<body data-maq-flow-layout="false" data-maq-comptype="delite" class="claro" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}">
   <script type="text/javascript">
       var xideveSettings = {
         xbloxScripts: []
       };
     </script>
-  <button is="d-button" label="Default Label" style="position: absolute; left: 62px; top: 110px; width: 202px; height: 151.43333435058594px;">
-   <d-xscript style="position: absolute; width: 46px; height: 34px; left: 77px; top: 50px;" scopeid="dd2985b9-9071-1682-226c-70b84b481117" targetevent="click" blockid="f0af83ed-9966-6b9e-04fb-cd288a19c911" script="Mute"></d-xscript>
- </button>
+  <button is="d-button" id="button1" title="Default La2bel" label="Default Label2" style="position: absolute; left: 56.25px; top: 18.032999999999987px; width: 172px; height: 180.43331909179688px;"></button>
+  <div style="position: absolute; width: 185px; height: 66px; left: 54px; top: 241px;">
+ </div>
 </body>
 </html>
