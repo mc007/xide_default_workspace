@@ -10,7 +10,7 @@
       "args": "",
       "deferred": false,
       "declaredClass": "xblox.model.code.RunScript",
-      "enabled": false,
+      "enabled": true,
       "serializeMe": true,
       "shareTitle": "",
       "canDelete": true,
