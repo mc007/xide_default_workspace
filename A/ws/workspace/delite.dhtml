@@ -32,7 +32,5 @@
       };
     </script>
   <button is="d-button" id="button1" title="Default La2bel" label="Default Label2" style="position: absolute; left: 56.25px; top: 18.032999999999987px; width: 172px; height: 180.43331909179688px;"></button>
-  <div style="position: absolute; width: 185px; height: 66px; left: 54px; top: 241px;">
- </div>
-</body>
+  </body>
 </html>
