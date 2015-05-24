@@ -31,6 +31,8 @@
         xbloxScripts: []
       };
     </script>
-  <button is="d-button" id="button1" title="Default La2bel" label="Default Label2" style="position: absolute; left: 56.25px; top: 18.032999999999987px; width: 172px; height: 180.43331909179688px;"></button>
-  </body>
+  <button is="d-button" label="FirstButton" id="FirstButton" title="Default La2bel" style="position: absolute; left: 72px; top: 201.283px; width: 100px; height: 50px;"></button>
+  <button is="d-button" label="SecondButton" id="SecondButton" title="Default La2bel" style="position: absolute; width: 159px; height: 50px; left: 91px; top: 388.283px;"></button>
+  <button is="d-button" label="ThirdButton" id="ThirdButton" title="Default La2bel" style="position: absolute; left: 101px; top: 280.283px; width: 100px; height: 50px;"></button>
+</body>
 </html>
