@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8"/>
+  <viewHeaderTemplate/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <script type="text/javascript">
     require([
@@ -21,12 +22,15 @@
 </head>
 
 <body data-maq-flow-layout="false" data-maq-comptype="delite" class="claro" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}">
+  
+  <viewBodyTemplate/>
+  
   <script type="text/javascript">
       var xideveSettings = {
         xbloxScripts: []
       };
     </script>
-  <button is="d-button" label="FirstBu2tton" id="FirstButton" title="Default La2bel" style="position: absolute; width: 100px; height: 50px; left: 56px; top: 279px;"></button>
+  <button is="d-button" label="FirstBu2tton" id="FirstButton" title="Default La2bel" style="position: absolute; width: 100px; height: 50px; left: 69px; top: 288px;"></button>
   <button is="d-button" label="SecondButton" id="SecondButton" title="Default La2bel" style="position: absolute; height: 50px; width: 100px; top: 171px; left: 56px;"></button>
   <button is="d-button" label="ThirdButton" id="ThirdButton" title="Default La2bel" style="position: absolute; width: 100px; height: 50px; left: 56px; top: 89px;"></button>
 </body>
