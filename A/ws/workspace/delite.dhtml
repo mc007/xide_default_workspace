@@ -1,37 +1,37 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8"/>
-  <viewHeaderTemplate/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <script type="text/javascript">
-    require([
-  "delite/register",
-  "deliteful/Button",
-  "xblox/RunScript",
-  "deliteful/Slider",
-  "deliteful/Combobox",
-  "deliteful/Checkbox",
-  "deliteful/RadioButton",
-  "deliteful/Switch",
-  "deliteful/ToggleButton"
-]);
-
-  </script>
-</head>
-
-<body data-maq-flow-layout="false" data-maq-comptype="delite" class="claro" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}">
+  <html>
   
-  <viewBodyTemplate/>
+  <head>
+    <meta charset="utf-8" />
+    <viewHeaderTemplate/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script type="text/javascript">
+      require([
+        "delite/register",
+        "deliteful/Button",
+        "xblox/RunScript",
+        "deliteful/Slider",
+        "deliteful/Combobox",
+        "deliteful/Checkbox",
+        "deliteful/RadioButton",
+        "deliteful/Switch",
+        "deliteful/ToggleButton"
+      ]);
+    </script>
+  </head>
   
-  <script type="text/javascript">
+  <body data-maq-flow-layout="false" data-maq-comptype="delite" class="claro" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}">
+  
+    <viewBodyTemplate/>
+  
+    <script type="text/javascript">
       var xideveSettings = {
         xbloxScripts: []
       };
     </script>
-  <button is="d-button" label="FirstBu2tton" id="FirstButton" title="Default La2bel" style="position: absolute; width: 100px; height: 50px; left: 69px; top: 288px;"></button>
-  <button is="d-button" label="SecondButton" id="SecondButton" title="Default La2bel" style="position: absolute; height: 50px; width: 100px; top: 171px; left: 56px;"></button>
-  <button is="d-button" label="ThirdButton" id="ThirdButton" title="Default La2bel" style="position: absolute; width: 100px; height: 50px; left: 56px; top: 89px;"></button>
-</body>
-</html>
+    <button is="d-button" label="FirstBu2tton" id="FirstButton" title="Default La2bel" style="position: absolute; width: 100px; height: 50px; left: 69px; top: 288px;"></button>
+    <button is="d-button" label="SecondButton" id="SecondButton" title="Default La2bel" style="position: absolute; height: 50px; width: 100px; top: 171px; left: 56px;"></button>
+    <button is="d-button" label="ThirdButton" id="ThirdButton" title="Default La2bel" style="position: absolute; width: 100px; height: 50px; left: 56px; top: 89px;"></button>
+  </body>
+  
+  </html>
