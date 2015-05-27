@@ -16,6 +16,24 @@
       "canDelete": true,
       "renderBlockIcon": true,
       "order": 0
+    },
+    {
+      "_containsChildrenIds": [],
+      "group": "btnMediaPlayer__click",
+      "id": "9bcdc95b-5783-758f-c4ca-122e583ea67c",
+      "value": "border:1px solid black;",
+      "reference": "{\"reference\":\".d-button\",\"mode\":\"byid\"}",
+      "name": "Set Style",
+      "description": "Sets HTML Node Style Attribute",
+      "mode": 1,
+      "declaredClass": "xblox.model.html.SetStyle",
+      "_didRegisterSubscribers": false,
+      "enabled": true,
+      "serializeMe": true,
+      "shareTitle": "",
+      "canDelete": true,
+      "renderBlockIcon": true,
+      "order": 0
     }
   ],
   "variables": []
