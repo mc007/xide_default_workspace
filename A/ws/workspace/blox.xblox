@@ -1,118 +1,43 @@
 {
   "blocks": [
     {
-      "_containsChildrenIds": [],
-      "parentId": "c8f9a0ea-fdcd-65a2-8b32-7569eeb74906",
-      "id": "6d6d310f-7dcd-4598-6b04-ff29384b7a9d",
-      "method": "console.profile('profile');",
-      "name": "Run Script",
-      "args": "",
-      "deferred": false,
-      "declaredClass": "xblox.model.code.RunScript",
-      "serializeMe": true,
-      "description": "No Description",
-      "enabled": true,
-      "canDelete": true,
-      "renderBlockIcon": true,
-      "order": 0,
-      "shareTitle": ""
-    },
-    {
-      "_containsChildrenIds": [],
-      "parentId": "018974c7-0ba8-6282-e873-91bedfce1554",
-      "id": "b2cbb8f3-3a76-ec64-1103-dcee539465c5",
-      "method": "console.profileEnd();",
-      "name": "Run Script",
-      "args": "",
-      "deferred": false,
-      "declaredClass": "xblox.model.code.RunScript",
-      "serializeMe": true,
-      "description": "No Description",
-      "enabled": true,
-      "canDelete": true,
-      "renderBlockIcon": true,
-      "order": 0,
-      "shareTitle": ""
-    },
-    {
       "_containsChildrenIds": [
         "items"
       ],
-      "group": "On Load",
-      "id": "c8f9a0ea-fdcd-65a2-8b32-7569eeb74906",
-      "name": "On Key",
-      "event": "shift d",
-      "reference": "{\"reference\":\"dijitContentPane dijitTabPane dijitTabContainerTop-child dijitTabContainerTop-dijitContentPane\",\"mode\":\"bycss\"}",
-      "description": "Activates firebug profiling!",
-      "declaredClass": "xblox.model.events.OnKey",
-      "serializeMe": true,
-      "enabled": true,
-      "canDelete": true,
-      "renderBlockIcon": true,
-      "order": 0,
+      "group": "click",
+      "id": "1972758c-b037-22dc-d8da-fe43a5adaf9a",
       "items": [
-        "6d6d310f-7dcd-4598-6b04-ff29384b7a9d"
+        "68b401bc-f263-f77c-ae5c-62242bfd8dc0"
       ],
-      "shareTitle": ""
-    },
-    {
-      "_containsChildrenIds": [
-        "items"
-      ],
-      "group": "On Load",
-      "id": "018974c7-0ba8-6282-e873-91bedfce1554",
-      "items": [
-        "b2cbb8f3-3a76-ec64-1103-dcee539465c5"
-      ],
-      "event": "shift f",
-      "name": "On Key",
-      "reference": "{\"reference\":\"\",\"mode\":\"byid\"}",
-      "description": "deactivates firebug profiling!",
-      "declaredClass": "xblox.model.events.OnKey",
-      "serializeMe": true,
-      "enabled": true,
-      "canDelete": true,
-      "renderBlockIcon": true,
-      "order": 0,
-      "shareTitle": ""
-    },
-    {
-      "_containsChildrenIds": [
-        "items"
-      ],
-      "group": "On Load",
-      "id": "f0c979e8-d0df-8bd7-5b0c-ad5bd8de95e5",
-      "name": "On Key",
-      "event": "shift x",
-      "reference": "{\"reference\":\"\",\"mode\":\"bycss\"}",
-      "description": "Activates firebug profiling!",
-      "declaredClass": "xblox.model.events.OnKey",
-      "serializeMe": true,
-      "enabled": true,
-      "canDelete": true,
-      "renderBlockIcon": true,
-      "order": 0,
-      "items": [
-        "ce316660-70e2-0806-75db-2d2b7d16006e"
-      ],
-      "shareTitle": ""
-    },
-    {
-      "_containsChildrenIds": [],
-      "parentId": "f0c979e8-d0df-8bd7-5b0c-ad5bd8de95e5",
-      "id": "ce316660-70e2-0806-75db-2d2b7d16006e",
+      "description": "Runs an expression.<br/>\n\n<b>Behaviour</b>\n\n<pre>\n\n    //to abort execution (child blocks), return something negative as -1 or false.\n    return false;\n\n</pre>",
       "name": "Run Script",
       "method": "",
       "args": "",
       "deferred": false,
       "declaredClass": "xblox.model.code.RunScript",
-      "serializeMe": true,
-      "description": "Runs an expression.<br/>\n\n<b>Behaviour</b>\n\n<pre>\n\n    //to abort execution (child blocks), return something negative as -1 or false.\n    return false;\n\n</pre>",
       "enabled": true,
+      "serializeMe": true,
+      "shareTitle": "",
       "canDelete": true,
       "renderBlockIcon": true,
-      "order": 0,
-      "shareTitle": ""
+      "order": 0
+    },
+    {
+      "_containsChildrenIds": [],
+      "parentId": "1972758c-b037-22dc-d8da-fe43a5adaf9a",
+      "id": "68b401bc-f263-f77c-ae5c-62242bfd8dc0",
+      "name": "Run Script",
+      "method": "",
+      "args": "",
+      "deferred": false,
+      "declaredClass": "xblox.model.code.RunScript",
+      "enabled": true,
+      "serializeMe": true,
+      "shareTitle": "",
+      "description": "No Description",
+      "canDelete": true,
+      "renderBlockIcon": true,
+      "order": 0
     }
   ],
   "variables": [
