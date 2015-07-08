@@ -11,7 +11,7 @@
       ],
       "description": "Runs an expression.<br/>\n\n<b>Behaviour</b>\n\n<pre>\n\n    //to abort execution (child blocks), return something negative as -1 or false.\n    return false;\n\n</pre>",
       "name": "Run Script",
-      "method": "",
+      "method": "console.log('asd',this);",
       "args": "",
       "deferred": false,
       "declaredClass": "xblox.model.code.RunScript",
@@ -20,24 +20,9 @@
       "shareTitle": "",
       "canDelete": true,
       "renderBlockIcon": true,
-      "order": 0
-    },
-    {
-      "_containsChildrenIds": [],
-      "parentId": "1972758c-b037-22dc-d8da-fe43a5adaf9a",
-      "id": "68b401bc-f263-f77c-ae5c-62242bfd8dc0",
-      "name": "Run Script",
-      "method": "",
-      "args": "",
-      "deferred": false,
-      "declaredClass": "xblox.model.code.RunScript",
-      "enabled": true,
-      "serializeMe": true,
-      "shareTitle": "",
-      "description": "No Description",
-      "canDelete": true,
-      "renderBlockIcon": true,
-      "order": 0
+      "order": 0,
+      "additionalProperties": true,
+      "_scenario": "update"
     }
   ],
   "variables": [
